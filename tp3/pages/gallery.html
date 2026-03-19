@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerie — Nexora Digital Agency</title>
+  <meta name="description" content="Galerie de réalisations de Nexora : sites web, applications mobiles, identités visuelles.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Galerie — Nexora">
+  <meta property="og:description" content="Découvrez nos meilleures réalisations digitales.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80">
+  <meta property="og:url" content="https://botaynabessar.github.io/c3-bo-bassar/tp3/pages/gallery.html">
+  <meta property="og:locale" content="fr_FR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Galerie — Nexora">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700;900&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="../index.html" class="logo">Nexora<span>.</span></a>
+    <button class="hamburger" id="hbg" aria-label="Menu"><span></span><span></span><span></span></button>
+    <ul id="nav-ul">
+      <li><a href="../index.html">Accueil</a></li>
+      <li><a href="about.html">À propos</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="gallery.html" class="active">Galerie</a></li>
+      <li><a href="contact.html" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="breadcrumb"><div class="container"><span><a href="../index.html">Accueil</a> &rsaquo; Galerie</span></div></div>
+
+<div class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Portfolio</span>
+    <h1>Notre Galerie</h1>
+    <p>Une sélection de nos meilleures réalisations digitales à travers le monde.</p>
+  </div>
+</div>
+
+<!-- GALERIE avec srcset + picture -->
+<section class="section">
+  <div class="container">
+
+    <!-- Filtres -->
+    <div class="gal-filter">
+      <button class="f-btn active">Tous</button>
+      <button class="f-btn">Web</button>
+      <button class="f-btn">Mobile</button>
+      <button class="f-btn">Design</button>
+      <button class="f-btn">Marketing</button>
+    </div>
+
+    <!-- Masonry avec images responsives -->
+    <div class="gal-masonry">
+
+      <div class="gal-item">
+        <picture>
+          <source srcset="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80" media="(min-width: 768px)">
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=480&q=75"
+               srcset="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=480&q=75 480w,
+                       https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80 800w"
+               sizes="(max-width:640px) 100vw, 33vw"
+               alt="Dashboard Analytics — Projet Nexora" loading="lazy">
+        </picture>
+        <div class="gal-overlay"><div class="gal-overlay-icon">+</div></div>
+        <div class="gal-label">Dashboard Analytics</div>
+      </div>
+
+      <div class="gal-item">
+        <picture>
+          <source srcset="https://images.unsplash.com/photo-1555421689-491a97ff2040?w=800&q=80" media="(min-width: 768px)">
+          <img src="https://images.unsplash.com/photo-1555421689-491a97ff2040?w=480&q=75"
+               srcset="https://images.unsplash.com/photo-1555421689-491a97ff2040?w=480&q=75 480w,
+                       https://images.unsplash.com/photo-1555421689-491a97ff2040?w=800&q=80 800w"
+               sizes="(max-width:640px) 100vw, 33vw"
+               alt="Site E-commerce Mode" loading="lazy">
+        </picture>
+        <div class="gal-overlay"><div class="gal-overlay-icon">+</div></div>
+        <div class="gal-label">Site E-commerce Mode</div>
+      </div>
+
+      <div class="gal-item">
+        <picture>
+          <source srcset="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&q=80" media="(min-width: 768px)">
+          <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=480&q=75"
+               srcset="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=480&q=75 480w,
+                       https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&q=80 800w"
+               sizes="(max-width:640px) 100vw, 33vw"
+               alt="Application Mobile Santé" loading="lazy">
+        </picture>
+        <div class="gal-overlay"><div class="gal-overlay-icon">+</div></div>
+        <div class="gal-label">App Mobile Santé</div>
+      </div>
+
+      <div class="gal-item">
+        <picture>
+          <source srcset="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80" media="(min-width: 768px)">
+          <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=480&q=75"
+               srcset="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=480&q=75 480w,
+                       https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80 800w"
+               sizes="(max-width:640px) 100vw, 33vw"
+               alt="Stratégie Marketing Digital" loading="lazy">
+        </picture>
+        <div class="gal-overlay"><div class="gal-overlay-icon">+</div></div>
+        <div class="gal-label">Stratégie Marketing Digital</div>
+      </div>
+
+      <div class="gal-item">
+        <picture>
+          <source srcset="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&q=80" media="(min-width: 768px)">
+          <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=480&q=75"
+               srcset="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=480&q=75 480w,
+                       https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&q=80 800w"
+               sizes="(max-width:640px) 100vw, 33vw"
+               alt="Site Hôtel Luxe" loading="lazy">
+        </picture>
+        <div class="gal-overlay"><div class="gal-overlay-icon">+</div></div>
+        <div class="gal-label">Site Hôtel Luxe</div>
+      </div>
+
+      <div class="gal-item">
+        <picture>
+          <source srcset="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&q=80" media="(min-width: 768px)">
+          <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=480&q=75"
+               srcset="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=480&q=75 480w,
+                       https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&q=80 800w"
+               sizes="(max-width:640px) 100vw, 33vw"
+               alt="Design Bureau Entreprise" loading="lazy">
+        </picture>
+        <div class="gal-overlay"><div class="gal-overlay-icon">+</div></div>
+        <div class="gal-label">Design Bureau Entreprise</div>
+      </div>
+
+      <div class="gal-item">
+        <picture>
+          <source srcset="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80" media="(min-width: 768px)">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=480&q=75"
+               srcset="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=480&q=75 480w,
+                       https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80 800w"
+               sizes="(max-width:640px) 100vw, 33vw"
+               alt="Plateforme E-Learning" loading="lazy">
+        </picture>
+        <div class="gal-overlay"><div class="gal-overlay-icon">+</div></div>
+        <div class="gal-label">Plateforme E-Learning</div>
+      </div>
+
+      <div class="gal-item">
+        <picture>
+          <source srcset="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80" media="(min-width: 768px)">
+          <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=480&q=75"
+               srcset="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=480&q=75 480w,
+                       https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80 800w"
+               sizes="(max-width:640px) 100vw, 33vw"
+               alt="Tableau de Bord Données" loading="lazy">
+        </picture>
+        <div class="gal-overlay"><div class="gal-overlay-icon">+</div></div>
+        <div class="gal-label">Tableau de Bord Données</div>
+      </div>
+
+      <div class="gal-item">
+        <picture>
+          <source srcset="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80" media="(min-width: 768px)">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=480&q=75"
+               srcset="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=480&q=75 480w,
+                       https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80 800w"
+               sizes="(max-width:640px) 100vw, 33vw"
+               alt="Plateforme Collaborative" loading="lazy">
+        </picture>
+        <div class="gal-overlay"><div class="gal-overlay-icon">+</div></div>
+        <div class="gal-label">Plateforme Collaborative</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col"><span class="f-logo">Nexora<span>.</span></span><p>Agence digitale spécialisée en développement web, design UI/UX et marketing digital.</p></div>
+      <div class="footer-col"><h4>Plan du site</h4><ul><li><a href="../index.html">Accueil</a></li><li><a href="about.html">À propos</a></li><li><a href="services.html">Services</a></li><li><a href="gallery.html">Galerie</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h4>Services</h4><ul><li><a href="services.html">Développement Web</a></li><li><a href="services.html">Design UI/UX</a></li><li><a href="services.html">Marketing Digital</a></li></ul></div>
+      <div class="footer-col"><h4>Mentions légales</h4><ul><li><a href="#">Politique de confidentialité</a></li><li><a href="#">Conditions d'utilisation</a></li><li><a href="#">Mentions légales</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2026 Nexora Digital Agency &mdash; Tous droits réservés</p><p>TP3 &middot; ENSET C3 &middot; <a href="#">botaynabessar</a></p></div>
+  </div>
+</footer>
+
+<script src="../js/script.js"></script>
+</body>
+</html>

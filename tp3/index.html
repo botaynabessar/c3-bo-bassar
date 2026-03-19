@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexora — Agence Digitale | Accueil</title>
+  <meta name="description" content="Nexora — Agence digitale innovante à Casablanca. Développement web, design UI/UX et marketing digital.">
+  <meta name="keywords" content="agence digitale, développement web, design UX, marketing digital, Casablanca">
+  <meta name="author" content="Nexora Digital Agency">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Nexora Digital Agency">
+  <meta property="og:title" content="Nexora — Agence Digitale Innovante">
+  <meta property="og:description" content="Développement web, design UI/UX et marketing digital à Casablanca.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80">
+  <meta property="og:url" content="https://botaynabessar.github.io/c3-bo-bassar/tp3/">
+  <meta property="og:locale" content="fr_FR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Nexora — Agence Digitale">
+  <meta name="twitter:description" content="Développement web, design & marketing digital.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700;900&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="index.html" class="logo">Nexora<span>.</span></a>
+    <button class="hamburger" id="hbg" aria-label="Menu"><span></span><span></span><span></span></button>
+    <ul id="nav-ul">
+      <li><a href="index.html" class="active">Accueil</a></li>
+      <li><a href="pages/about.html">À propos</a></li>
+      <li><a href="pages/services.html">Services</a></li>
+      <li><a href="pages/gallery.html">Galerie</a></li>
+      <li><a href="pages/contact.html" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO avec image responsive picture + srcset -->
+<div class="hero">
+  <div class="hero-left">
+    <span class="eyebrow">Agence digitale · Casablanca</span>
+    <h1>Nous transformons<br>vos idées en<br>expériences digitales</h1>
+    <p>Design, développement et stratégie — réunis pour construire des produits numériques qui marquent les esprits.</p>
+    <div class="hero-actions">
+      <a href="pages/services.html" class="btn btn-gold">Nos services</a>
+      <a href="pages/contact.html" class="btn btn-outline">Parler de votre projet</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <picture>
+      <source srcset="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1400&q=85" media="(min-width: 1024px)">
+      <source srcset="https://images.unsplash.com/photo-1497366216548-37526070297c?w=900&q=80" media="(min-width: 600px)">
+      <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=75"
+           srcset="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=75 600w,
+                   https://images.unsplash.com/photo-1497366216548-37526070297c?w=900&q=80 900w,
+                   https://images.unsplash.com/photo-1497366216548-37526070297c?w=1400&q=85 1400w"
+           sizes="(max-width: 960px) 100vw, 45vw"
+           alt="Bureau moderne et lumineux de l'agence Nexora"
+           width="900" height="1100" loading="eager">
+    </picture>
+  </div>
+</div>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="container stats-grid">
+    <div><strong data-target="150" data-suffix="+">150+</strong><span>Projets réalisés</span></div>
+    <div><strong data-target="98" data-suffix="%">98%</strong><span>Clients satisfaits</span></div>
+    <div><strong data-target="8" data-suffix=" ans">8 ans</strong><span>D'expérience</span></div>
+    <div><strong data-target="24" data-suffix="/7">24/7</strong><span>Support disponible</span></div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section class="section">
+  <div class="container">
+    <div class="section-intro">
+      <span class="eyebrow">Ce que nous faisons</span>
+      <h2>Nos Services</h2>
+      <p>Des solutions complètes pour construire et accélérer votre présence digitale.</p>
+    </div>
+    <div class="services-grid">
+      <div class="card"><div class="card-num">01</div><h3>Développement Web</h3><p>Sites modernes, performants et responsives. Applications web sur mesure avec les dernières technologies.</p></div>
+      <div class="card"><div class="card-num">02</div><h3>Design UI/UX</h3><p>Interfaces élégantes et intuitives. Expériences utilisateur centrées sur vos objectifs métier.</p></div>
+      <div class="card"><div class="card-num">03</div><h3>Marketing Digital</h3><p>Stratégies SEO, réseaux sociaux et campagnes publicitaires pour maximiser votre visibilité.</p></div>
+      <div class="card"><div class="card-num">04</div><h3>Applications Mobiles</h3><p>Développement iOS et Android natif ou cross-platform avec React Native et Flutter.</p></div>
+      <div class="card"><div class="card-num">05</div><h3>Cloud &amp; Hébergement</h3><p>Solutions scalables, sécurisées et hautement disponibles pour toutes vos applications.</p></div>
+      <div class="card"><div class="card-num">06</div><h3>Cybersécurité</h3><p>Audit de sécurité, protection des données et conformité RGPD pour votre entreprise.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- TÉMOIGNAGES -->
+<section class="section section--bg">
+  <div class="container">
+    <div class="section-intro">
+      <span class="eyebrow">Ce qu'ils disent</span>
+      <h2>Témoignages Clients</h2>
+    </div>
+    <div class="temo-grid">
+      <blockquote>
+        <div class="q-mark">&ldquo;</div>
+        <p class="q-text">Nexora a dépassé toutes nos attentes. Notre site est magnifique et nos ventes ont augmenté de 40 % en seulement trois mois.</p>
+        <div class="q-author"><strong>Youssef Benali</strong><span>CEO, StartupMa · Casablanca</span></div>
+      </blockquote>
+      <blockquote>
+        <div class="q-mark">&ldquo;</div>
+        <p class="q-text">Professionnels, réactifs et créatifs. Je recommande vivement Nexora pour tout projet digital. Un vrai partenaire de confiance.</p>
+        <div class="q-author"><strong>Fatima Zahra El Idrissi</strong><span>Directrice Marketing, Groupe Atlas</span></div>
+      </blockquote>
+      <blockquote>
+        <div class="q-mark">&ldquo;</div>
+        <p class="q-text">Notre application mobile a été livrée dans les délais avec une qualité irréprochable. L'équipe est très compétente.</p>
+        <div class="q-author"><strong>Mehdi Tazi</strong><span>Fondateur, AppMaroc · Rabat</span></div>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- VIDÉO autoplay muted loop -->
+<section class="video-section">
+  <div class="container">
+    <span class="eyebrow">Notre univers</span>
+    <h2>Découvrez comment nous travaillons</h2>
+    <p>Un aperçu de nos méthodes, de notre culture et de nos projets</p>
+    <div class="video-wrap">
+      <video autoplay muted loop playsinline
+             poster="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=900&q=80"
+             width="880">
+        <source src="video/presentation.mp4" type="video/mp4">
+        <source src="video/presentation.webm" type="video/webm">
+        Votre navigateur ne supporte pas la lecture vidéo.
+      </video>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <span class="f-logo">Nexora<span>.</span></span>
+        <p>Agence digitale spécialisée en développement web, design UI/UX et marketing digital. Votre réussite est notre mission.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Plan du site</h4>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="pages/about.html">À propos</a></li>
+          <li><a href="pages/services.html">Services</a></li>
+          <li><a href="pages/gallery.html">Galerie</a></li>
+          <li><a href="pages/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="pages/services.html">Développement Web</a></li>
+          <li><a href="pages/services.html">Design UI/UX</a></li>
+          <li><a href="pages/services.html">Marketing Digital</a></li>
+          <li><a href="pages/services.html">Applications Mobiles</a></li>
+          <li><a href="pages/services.html">Cybersécurité</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Mentions légales</h4>
+        <ul>
+          <li><a href="#">Politique de confidentialité</a></li>
+          <li><a href="#">Conditions d'utilisation</a></li>
+          <li><a href="#">Mentions légales</a></li>
+          <li><a href="#">Politique RGPD</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Nexora Digital Agency &mdash; Tous droits réservés</p>
+      <p>TP3 &middot; ENSET C3 &middot; <a href="#">botaynabessar</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
